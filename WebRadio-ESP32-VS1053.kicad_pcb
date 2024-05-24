@@ -19132,7 +19132,7 @@
 			(justify right mirror)
 		)
 	)
-	(gr_text "VS1053b Streaming\nPSch 05/24\nV1.2"
+	(gr_text "WebRadio ESP32\nPSch 05/24\nV1.2"
 		(at 137.922 110.3376 0)
 		(layer "B.SilkS")
 		(uuid "249c072e-ea38-4cc3-b5c1-31e0f2fad07a")
@@ -19288,8 +19288,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "VS1053b Streaming\nPSch 05/24\nV1.2"
-		(at 147.2946 102.6668 0)
+	(gr_text "WebRadio ESP32\nPSch 05/24\nV1.2"
+		(at 148.5392 102.8192 0)
 		(layer "F.SilkS")
 		(uuid "1f6b6944-43bc-4916-992b-76f3ea2d65f5")
 		(effects

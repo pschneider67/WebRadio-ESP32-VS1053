@@ -5,9 +5,9 @@
 	(uuid "ab339835-62d6-431e-976f-91ac65aa112a")
 	(paper "A4")
 	(title_block
-		(title "VS1053b Streaming")
+		(title "WebRadio ESP32")
 		(date "2024-03-17")
-		(rev "1.0")
+		(rev "1.2")
 		(company "PSch")
 	)
 	(lib_symbols
@@ -8982,7 +8982,7 @@
 		)
 		(uuid "c7d9037c-baf5-4142-b760-1a9a6d45aac9")
 	)
-	(text "Tiefpass ca. 16kHz"
+	(text "lowpass filter"
 		(exclude_from_sim no)
 		(at 113.538 21.082 0)
 		(effects
