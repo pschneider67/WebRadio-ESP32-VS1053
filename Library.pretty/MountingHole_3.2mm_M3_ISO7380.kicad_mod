@@ -1,0 +1,108 @@
+(footprint "MountingHole_3.2mm_M3_ISO7380"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3, ISO7380")
+	(tags "mounting hole 3.2mm no annular m3 iso7380")
+	(property "Reference" "REF**"
+		(at 0 -3.85 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5218575e-93b4-4454-b854-a86d495c2686")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole"
+		(at 0 3.85 0)
+		(layer "F.Fab")
+		(uuid "629b6834-273b-4d86-9016-5ffae5466f2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9fc6521-c37d-4975-8412-94e2ff73b3bc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e659b4de-fde2-4b2b-9d2f-3c2247cf940d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8122a10-8198-4883-8312-e0db2f089254")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr exclude_from_pos_files)
+	(fp_circle
+		(center 0 0)
+		(end 2.85 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "0bc3b074-26a4-4ede-b7f6-3667ee2cbd39")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8411dba5-6084-4320-8ecc-ad5408215b75")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "50da107e-b63e-4cc4-b5ed-3e46bd2b5363")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "7633eeaf-be03-4c7b-8a72-9e0a34b1abac")
+	)
+)

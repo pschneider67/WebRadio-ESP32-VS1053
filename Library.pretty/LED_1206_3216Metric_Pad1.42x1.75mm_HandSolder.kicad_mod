@@ -1,0 +1,223 @@
+(footprint "LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED handsolder")
+	(property "Reference" "REF**"
+		(at 0 -1.82 0)
+		(layer "F.SilkS")
+		(uuid "8c495eb6-f724-436c-b232-0c67296d463f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Power LED"
+		(at 0 1.82 0)
+		(layer "F.Fab")
+		(uuid "648a56cf-5561-446b-9059-146475eb577d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e35c7b24-9b50-417b-82d0-15e0e253bf85")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8eb0a454-3d2c-48d9-89bd-cbe7d8674c4a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e265b8b8-f417-44a0-a6d8-49554072ca17")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.46 -1.135)
+		(end -2.46 1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cbc4a460-5950-40bc-b524-e90f5da41859")
+	)
+	(fp_line
+		(start -2.46 1.135)
+		(end 1.6 1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74c0a8d6-f051-4446-962f-cf2009f45645")
+	)
+	(fp_line
+		(start 1.6 -1.135)
+		(end -2.46 -1.135)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "deefd848-8321-48ea-a814-ddad6bed9b55")
+	)
+	(fp_line
+		(start -2.45 -1.12)
+		(end 2.45 -1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "60fdead8-b0bb-4c92-894a-df905c107681")
+	)
+	(fp_line
+		(start -2.45 1.12)
+		(end -2.45 -1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "23edb857-ca4d-40e2-a0fd-2b2bbca5eb63")
+	)
+	(fp_line
+		(start 2.45 -1.12)
+		(end 2.45 1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "157ad284-86ef-4656-b3c2-d5fd911fb800")
+	)
+	(fp_line
+		(start 2.45 1.12)
+		(end -2.45 1.12)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9938b4f6-e20e-4be0-9cdf-3ddc9e45c27b")
+	)
+	(fp_line
+		(start -1.6 -0.4)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "744ae649-62ca-4095-b096-c52f3d0f6d86")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ca322356-274d-487f-b7ee-25bfd7f3d41b")
+	)
+	(fp_line
+		(start -1.2 -0.8)
+		(end -1.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "64923e06-9144-48be-beda-225a877cc7d7")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "872b3055-c472-428e-9338-8b456a54276a")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35717e5f-4969-44f3-98b3-e13dde19c704")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "63e9ecfe-4f90-4d86-b215-dee0c6a64234")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.4875 0)
+		(size 1.425 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.175439)
+		(uuid "b41834a7-db9d-4a1e-8126-83cf8f2ef4b8")
+	)
+	(pad "2" smd roundrect
+		(at 1.4875 0)
+		(size 1.425 1.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.175439)
+		(uuid "d32966b6-6ef4-4f3b-a62a-3e9007221754")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,252 @@
+(footprint "Jack_3.5mm_SMT_Horizontal"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "3.5 mm, Stereo, Right Angle, Surface Mount (SMT), Audio Jack Connector (https://www.cui.com/product/resource/sj-352x-smt-series.pdf)")
+	(tags "3.5mm audio cui horizontal jack stereo")
+	(property "Reference" "REF**"
+		(at -5.4 1.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9f6f6862-dbf4-4d3e-894f-4a13b54b15ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "AudioJack3"
+		(at 0 16.1 0)
+		(layer "F.Fab")
+		(uuid "33e7920d-17b4-435d-bd98-f098c1f6874e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "lib_psch:Jack_3.5mm_SMT_Horizontal"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8ef3ece-c661-4016-8fa7-1e724522bea3")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "709670e8-3b3c-43de-aa66-192c013c1c26")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a2daf3d-dce6-4f51-ad73-1a1ef5147cab")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3 3)
+		(end -3 3.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "71f68464-948d-49e9-b69c-11c4e9ef0b9d")
+	)
+	(fp_line
+		(start -3 3.9)
+		(end -4.8 3.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d315b0eb-e8ef-4694-b36b-964778669593")
+	)
+	(fp_line
+		(start -3 6.3)
+		(end -4.8 6.3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8166bacd-5f8d-455e-a373-525e246d3cc1")
+	)
+	(fp_line
+		(start -3 6.3)
+		(end -3 10.9)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5762f580-10b4-4d7d-9144-78e678c906e5")
+	)
+	(fp_line
+		(start -3 14.5)
+		(end -3 13.4)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6bfd8e90-5e26-4d0d-80ca-faf41ef7dc39")
+	)
+	(fp_line
+		(start -3 14.5)
+		(end 3 14.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0b240d8f-6f6c-49c2-8a5d-134cb2b447bf")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end -2.5 3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a85ab3af-9f7b-4a74-8954-7813e50a7bb6")
+	)
+	(fp_line
+		(start -2.5 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2dcc1088-3c22-4f39-b814-8141bd3bd607")
+	)
+	(fp_line
+		(start -2.5 3)
+		(end -3 3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "69446ae4-f926-4efc-ad09-252690ec8e6c")
+	)
+	(fp_line
+		(start 2.5 0)
+		(end 2.5 3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "117b3df2-15e2-4b7f-bad9-91b7b6811578")
+	)
+	(fp_line
+		(start 2.5 3)
+		(end 3 3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "89352188-c8d5-46cd-817d-af6ee51a3ac3")
+	)
+	(fp_line
+		(start 3 3)
+		(end 3 6)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "168505e3-ac9b-4b30-a18f-2e2937a3b292")
+	)
+	(fp_line
+		(start 3 14.5)
+		(end 3 8.2)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "763c4f4c-f6f2-49ce-be5e-660b97341f8f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -1.2 0)
+		(layer "F.Fab")
+		(uuid "130088d3-9201-469b-9098-7b777f0f8f67")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 5)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "52ce805a-3082-476a-9da1-9f8f4bcea5f4")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 11)
+		(size 1 1)
+		(drill 1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "03a7fb9a-025e-45c0-a0e6-798e50773154")
+	)
+	(pad "R" smd rect
+		(at 3.7 7.1)
+		(size 3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "da46d1ce-7dab-4dd5-9612-2da0998f2d60")
+	)
+	(pad "S" smd rect
+		(at -3.8 5.1)
+		(size 3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e3737ba2-33d8-4d77-a69e-ddabab4f4dc9")
+	)
+	(pad "T" smd rect
+		(at -3.8 12.1)
+		(size 3 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2a9e089c-dcbb-4280-98ef-153d4804bd4a")
+	)
+	(model "${KICAD8_USER_3D_PARTY}/Jack_3.5mm_PJ320B_Horizontal.step"
+		(offset
+			(xyz 0 -8.7 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 90)
+		)
+	)
+)
