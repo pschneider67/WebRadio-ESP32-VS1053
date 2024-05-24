@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "7fc1e30_ffffffff",
+    "visible_layers": "ffc1e20_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "MIDI_Expander.kicad_prl",
+    "filename": "WebRadio-ESP32-VS1053.kicad_prl",
     "version": 3
   },
   "project": {

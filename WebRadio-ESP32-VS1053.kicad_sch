@@ -11,7 +11,2298 @@
 		(company "PSch")
 	)
 	(lib_symbols
-		(symbol "Amplifier_Audio:PAM8403D"
+		(symbol "Connector:USB_C_Plug_USB2.0"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at -10.16 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "USB_C_Plug_USB2.0"
+				(at 12.7 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB 2.0-only Type-C Plug connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "usb universal serial bus type-C USB2.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*C*Plug*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB_C_Plug_USB2.0_0_0"
+				(rectangle
+					(start -0.254 -17.78)
+					(end 0.254 -16.764)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -2.286)
+					(end 9.144 -2.794)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 2.794)
+					(end 9.144 2.286)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 7.874)
+					(end 9.144 7.366)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 10.414)
+					(end 9.144 9.906)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 15.494)
+					(end 9.144 14.986)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "USB_C_Plug_USB2.0_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(arc
+					(start -8.89 -3.81)
+					(mid -6.985 -5.7067)
+					(end -5.08 -3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -3.81)
+					(mid -6.985 -4.4423)
+					(end -6.35 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -7.62 -3.81)
+					(mid -6.985 -4.4423)
+					(end -6.35 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -7.62 -3.81)
+					(end -6.35 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -6.35 3.81)
+					(mid -6.985 4.4423)
+					(end -7.62 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -6.35 3.81)
+					(mid -6.985 4.4423)
+					(end -7.62 3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start -5.08 3.81)
+					(mid -6.985 5.7067)
+					(end -8.89 3.81)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 1.143)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -8.89 -3.81) (xy -8.89 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.81) (xy -5.08 -3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -5.842) (xy 0 4.318)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.302) (xy -2.54 -0.762) (xy -2.54 0.508)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.032) (xy 2.54 0.508) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 4.318) (xy 0 6.858) (xy 1.27 4.318) (xy -1.27 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 1.905 1.778)
+					(end 3.175 3.048)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "USB_C_Plug_USB2.0_1_1"
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "VCONN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08) hide
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:+5V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+5V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:AMS1117-1.8"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AMS1117-1.8"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AMS1117-1.8_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AMS1117-1.8_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:AudioJack3"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AudioJack3"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "T"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:CP_SMD_D5.0mm_H5.7mm"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "CP_SMD_D5.0mm_H5.7mm"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Capacitor_SMD_AKL:CP_Elec_5x5.7"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SMD Electrolytic Capacitor, 5mm Diameter, 5.7mm Height, European Symbol, Alternate KiCad Library"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor polarized eu smd electrolytic 5x5.7mm 5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP_SMD_D5.0mm_H5.7mm_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "CP_SMD_D5.0mm_H5.7mm_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:Crystal_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Y"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Crystal_Small"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Two pin crystal, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "quartz ceramic resonator oscillator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Crystal*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Crystal_Small_0_1"
+				(rectangle
+					(start -0.762 -1.524)
+					(end 0.762 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy -1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.762) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Crystal_Small_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:GNDD"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GNDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:JLCPCB"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "JLCPCB Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lib_psch:JLCPCB-Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JLCPCB_1_1"
+				(text "JLCPCB Marker"
+					(at 0 2.54 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:LED"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Library:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+		(symbol "Library:PAM8403D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -380,937 +2671,7 @@
 				)
 			)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Audio:AudioJack3"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack3"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack3_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end -6.35 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AudioJack3_1_1"
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x02"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:Crystal_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Crystal_Small"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Two pin crystal, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "quartz ceramic resonator oscillator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Crystal*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Crystal_Small_0_1"
-				(rectangle
-					(start -0.762 -1.524)
-					(end 0.762 1.524)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -0.762) (xy -1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -0.762) (xy 1.27 0.762)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Crystal_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:LED"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:R"
+		(symbol "Library:R"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -1431,383 +2792,7 @@
 				)
 			)
 		)
-		(symbol "Mechanical:MountingHole"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "H"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MountingHole"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Mounting Hole without connection"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "mounting hole"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MountingHole_0_1"
-				(circle
-					(center 0 0)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
-		(symbol "PCM_Capacitor_AKL:CP_SMD_D5.0mm_H5.7mm"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "CP_SMD_D5.0mm_H5.7mm"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD_AKL:CP_Elec_5x5.7"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "SMD Electrolytic Capacitor, 5mm Diameter, 5.7mm Height, European Symbol, Alternate KiCad Library"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor polarized eu smd electrolytic 5x5.7mm 5mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CP_SMD_D5.0mm_H5.7mm_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "CP_SMD_D5.0mm_H5.7mm_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Regulator_Linear:AMS1117-1.8"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AMS1117-1.8"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-				(at 2.54 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1A Low Dropout regulator, positive, 1.8V fixed output, SOT-223"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?223*TabPin2*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AMS1117-1.8_0_1"
-				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AMS1117-1.8_1_1"
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Switch:SW_Push"
+		(symbol "Library:SW_Push"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
@@ -1952,1212 +2937,7 @@
 				)
 			)
 		)
-		(symbol "esp32-mini:mini_esp32"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 -50.8 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "mini_esp32"
-				(at 5.08 -59.69 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 3.81 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "mini_esp32_0_0"
-				(text "ESP32"
-					(at 7.62 -62.23 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -12.7 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 13.97 -15.24 180)
-					(length 2.54)
-					(name "RST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect non_logic
-					(at 13.97 -21.59 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -45.72 0)
-					(length 2.54)
-					(name "IO_36/SVP/A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -48.26 0)
-					(length 2.54)
-					(name "IO_39/SVN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "mini_esp32_0_1"
-				(rectangle
-					(start -10.16 -1.27)
-					(end 11.43 -64.77)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "mini_esp32_1_1"
-				(pin bidirectional line
-					(at -12.7 -33.02 0)
-					(length 2.54)
-					(name "IO_19/D6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -40.64 0)
-					(length 2.54)
-					(name "IO_34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -55.88 0)
-					(length 2.54)
-					(name "IO_23/D7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -22.86 0)
-					(length 2.54)
-					(name "IO_14/TMS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -10.16 0)
-					(length 2.54)
-					(name "IO_05/D8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect non_logic
-					(at 13.97 -19.05 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -5.08 180)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -12.7 0)
-					(length 2.54)
-					(name "IO_09/SD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -20.32 0)
-					(length 2.54)
-					(name "IO_13/TCK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 13.97 -27.94 180)
-					(length 2.54)
-					(name "CMD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -15.24 0)
-					(length 2.54)
-					(name "IO_10/SD3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 13.97 -30.48 180)
-					(length 2.54)
-					(name "TXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -10.16 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 13.97 -33.02 180)
-					(length 2.54)
-					(name "RXD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -63.5 0)
-					(length 2.54)
-					(name "IO_27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -53.34 0)
-					(length 2.54)
-					(name "IO_22/D1/SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -58.42 0)
-					(length 2.54)
-					(name "IO_25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -50.8 0)
-					(length 2.54)
-					(name "IO_21/D2/SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -35.56 0)
-					(length 2.54)
-					(name "IO_32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -27.94 0)
-					(length 2.54)
-					(name "IO_17/D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -17.78 0)
-					(length 2.54)
-					(name "IO_12/TDI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "30"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -25.4 0)
-					(length 2.54)
-					(name "IO_16/D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "31"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "IO_04"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "32"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -7.62 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "IO_00"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "34"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 13.97 -2.54 180)
-					(length 2.54)
-					(name "VCC_(USB)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "IO_02"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "36"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 13.97 -43.18 180)
-					(length 2.54)
-					(name "TD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "37"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 13.97 -40.64 180)
-					(length 2.54)
-					(name "SD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "38"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 13.97 -38.1 180)
-					(length 2.54)
-					(name "SD0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "39"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive non_logic
-					(at 13.97 -35.56 180)
-					(length 2.54)
-					(name "CLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "40"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -60.96 0)
-					(length 2.54)
-					(name "IO_26/D0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -43.18 0)
-					(length 2.54)
-					(name "IO_35"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -30.48 0)
-					(length 2.54)
-					(name "IO_18/D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 -38.1 0)
-					(length 2.54)
-					(name "IO_33"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+3.3V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:+5V"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "+5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:GNDD"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GNDD"
-				(at 0 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GNDD_0_1"
-				(rectangle
-					(start -1.27 -1.524)
-					(end 1.27 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDD_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GNDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "psch:JLCPCB"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "JLCPCB Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "psch:JLCPCB-Marker"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "JLCPCB_1_1"
-				(text "JLCPCB Marker"
-					(at 0 2.54 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(symbol "psch:TFT2.2_SPI_4P_SD"
+		(symbol "Library:TFT2.2_SPI_4P_SD"
 			(pin_names
 				(offset 1.016)
 			)
@@ -3456,7 +3236,7 @@
 				)
 			)
 		)
-		(symbol "psch:VS1053b"
+		(symbol "Library:VS1053b"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4383,6 +4163,802 @@
 				)
 			)
 		)
+		(symbol "Library:mini_esp32"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 -50.8 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "mini_esp32"
+				(at 5.08 -59.69 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 3.81 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "mini_esp32_0_0"
+				(text "ESP32"
+					(at 7.62 -62.23 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -12.7 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 13.97 -15.24 180)
+					(length 2.54)
+					(name "RST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect non_logic
+					(at 13.97 -21.59 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -45.72 0)
+					(length 2.54)
+					(name "IO_36/SVP/A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -48.26 0)
+					(length 2.54)
+					(name "IO_39/SVN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "mini_esp32_0_1"
+				(rectangle
+					(start -10.16 -1.27)
+					(end 11.43 -64.77)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "mini_esp32_1_1"
+				(pin bidirectional line
+					(at -12.7 -33.02 0)
+					(length 2.54)
+					(name "IO_19/D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -40.64 0)
+					(length 2.54)
+					(name "IO_34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -55.88 0)
+					(length 2.54)
+					(name "IO_23/D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -22.86 0)
+					(length 2.54)
+					(name "IO_14/TMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -10.16 0)
+					(length 2.54)
+					(name "IO_05/D8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect non_logic
+					(at 13.97 -19.05 180)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -5.08 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -12.7 0)
+					(length 2.54)
+					(name "IO_09/SD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -20.32 0)
+					(length 2.54)
+					(name "IO_13/TCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive non_logic
+					(at 13.97 -27.94 180)
+					(length 2.54)
+					(name "CMD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -15.24 0)
+					(length 2.54)
+					(name "IO_10/SD3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive non_logic
+					(at 13.97 -30.48 180)
+					(length 2.54)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive non_logic
+					(at 13.97 -33.02 180)
+					(length 2.54)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -63.5 0)
+					(length 2.54)
+					(name "IO_27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -53.34 0)
+					(length 2.54)
+					(name "IO_22/D1/SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -58.42 0)
+					(length 2.54)
+					(name "IO_25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -50.8 0)
+					(length 2.54)
+					(name "IO_21/D2/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -35.56 0)
+					(length 2.54)
+					(name "IO_32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -27.94 0)
+					(length 2.54)
+					(name "IO_17/D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -17.78 0)
+					(length 2.54)
+					(name "IO_12/TDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -25.4 0)
+					(length 2.54)
+					(name "IO_16/D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -7.62 0)
+					(length 2.54)
+					(name "IO_04"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -7.62 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -2.54 0)
+					(length 2.54)
+					(name "IO_00"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 13.97 -2.54 180)
+					(length 2.54)
+					(name "VCC_(USB)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -5.08 0)
+					(length 2.54)
+					(name "IO_02"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive non_logic
+					(at 13.97 -43.18 180)
+					(length 2.54)
+					(name "TD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive non_logic
+					(at 13.97 -40.64 180)
+					(length 2.54)
+					(name "SD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive non_logic
+					(at 13.97 -38.1 180)
+					(length 2.54)
+					(name "SD0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive non_logic
+					(at 13.97 -35.56 180)
+					(length 2.54)
+					(name "CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -60.96 0)
+					(length 2.54)
+					(name "IO_26/D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -43.18 0)
+					(length 2.54)
+					(name "IO_35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -30.48 0)
+					(length 2.54)
+					(name "IO_18/D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -12.7 -38.1 0)
+					(length 2.54)
+					(name "IO_33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 200.66 88.9)
@@ -4443,6 +5019,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ac07d3c-1c97-4e73-92d6-062064106294")
+	)
+	(junction
+		(at 119.38 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b85e6df-d4c3-4c53-a01e-bcc3a9a0e4c5")
 	)
 	(junction
 		(at 240.03 86.36)
@@ -4829,6 +5411,12 @@
 		(uuid "de628052-d974-4c66-90f7-bd791d9b2845")
 	)
 	(junction
+		(at 109.22 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "deee484f-25a3-4ae9-af43-e4db2f873cee")
+	)
+	(junction
 		(at 200.66 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5108,6 +5696,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 113.03) (xy 101.6 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c984d3-1aa7-4b79-a524-8559ef3a6570")
+	)
+	(wire
+		(pts
 			(xy 60.96 67.31) (xy 66.04 67.31)
 		)
 		(stroke
@@ -5175,6 +5773,26 @@
 			(type default)
 		)
 		(uuid "0be5a750-d830-41db-b31e-d09895f62bf4")
+	)
+	(wire
+		(pts
+			(xy 109.22 134.62) (xy 109.22 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c0e1372-d0cc-490a-91d7-7e647ad2fcc5")
+	)
+	(wire
+		(pts
+			(xy 109.22 137.16) (xy 119.38 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4c1fc6-f1eb-4aa2-9c9e-7e4a58b2b6e0")
 	)
 	(wire
 		(pts
@@ -5448,6 +6066,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 124.46) (xy 119.38 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210065e0-4f4c-4cac-a3b4-6d96ad0aae8d")
+	)
+	(wire
+		(pts
 			(xy 85.09 186.69) (xy 85.09 189.23)
 		)
 		(stroke
@@ -5695,6 +6323,16 @@
 			(type default)
 		)
 		(uuid "39f46f84-ecce-4235-9d39-b8c1ed7118b7")
+	)
+	(wire
+		(pts
+			(xy 109.22 124.46) (xy 109.22 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a80ff6a-0961-40fd-a108-f2dfe1f4b415")
 	)
 	(wire
 		(pts
@@ -6298,6 +6936,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 113.03) (xy 109.22 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea2571d-c9b2-4e4a-8309-8e1725a36f01")
+	)
+	(wire
+		(pts
 			(xy 139.7 57.15) (xy 148.59 57.15)
 		)
 		(stroke
@@ -6435,6 +7083,16 @@
 			(type default)
 		)
 		(uuid "75f57ec6-1b34-47aa-8984-45a4c0436f28")
+	)
+	(wire
+		(pts
+			(xy 153.67 116.84) (xy 153.67 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "760a58d7-e774-4500-b48d-1ec7ecb67ebb")
 	)
 	(wire
 		(pts
@@ -6748,7 +7406,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 124.46) (xy 119.38 124.46)
+			(xy 104.14 124.46) (xy 109.22 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7228,6 +7886,16 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 74.93) (xy 128.27 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d466af-8b97-4a54-9006-9282b056225f")
+	)
+	(wire
+		(pts
 			(xy 36.83 118.11) (xy 46.99 118.11)
 		)
 		(stroke
@@ -7355,6 +8023,16 @@
 			(type solid)
 		)
 		(uuid "be322b9a-6cd6-4997-9929-622cca8f6114")
+	)
+	(wire
+		(pts
+			(xy 158.75 116.84) (xy 153.67 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be6228e3-fc80-47fb-b8e9-8fa5bd65f06d")
 	)
 	(wire
 		(pts
@@ -7538,6 +8216,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 124.46) (xy 170.18 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d055395d-715b-4628-a8c1-2565c43cee35")
+	)
+	(wire
+		(pts
 			(xy 60.96 179.07) (xy 60.96 172.72)
 		)
 		(stroke
@@ -7625,16 +8313,6 @@
 			(type default)
 		)
 		(uuid "d5e7f50d-5494-4d13-a384-1eac9c74af13")
-	)
-	(wire
-		(pts
-			(xy 156.21 124.46) (xy 170.18 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d668df3d-d7b4-4958-b68e-049373acecc8")
 	)
 	(wire
 		(pts
@@ -8512,6 +9190,28 @@
 			)
 		)
 	)
+	(global_label "+1.8V"
+		(shape input)
+		(at 158.75 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3908d381-9682-44d6-aff5-03456dbeb2ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.42 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DISP_DC"
 		(shape input)
 		(at 36.83 113.03 180)
@@ -9129,7 +9829,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 124.46 165.1 0)
 		(mirror y)
 		(unit 1)
@@ -9174,7 +9874,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 124.46 165.1 0)
 			(effects
 				(font
@@ -9190,7 +9890,7 @@
 			(uuid "13ac13d1-7247-4f13-9bad-2f131d0099d2")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R6")
 					(unit 1)
@@ -9199,7 +9899,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 198.12 119.38 90)
 		(mirror x)
 		(unit 1)
@@ -9244,7 +9944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 198.12 119.38 0)
 			(effects
 				(font
@@ -9260,7 +9960,7 @@
 			(uuid "c577f10f-a1e8-4f7e-b38d-f2be03e2a3cb")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R9")
 					(unit 1)
@@ -9269,7 +9969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Library:+5V")
 		(at 170.18 57.15 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9326,7 +10026,7 @@
 			(uuid "0e303a00-0f51-4ec8-9a9b-de74ceb0821d")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR023")
 					(unit 1)
@@ -9335,7 +10035,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Library:LED")
 		(at 54.61 185.42 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9380,7 +10080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 54.61 185.42 0)
 			(effects
 				(font
@@ -9396,7 +10096,7 @@
 			(uuid "e09e2d5d-f68e-4854-8d1f-ad19772f17cc")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "D3")
 					(unit 1)
@@ -9405,7 +10105,108 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Connector:USB_C_Plug_USB2.0")
+		(at 109.22 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a8dab23-8b55-4fcc-940d-baf3c3dfe10c")
+		(property "Reference" "P1"
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Plug_USB2.0"
+			(at 109.22 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4125-xx-x_6P_TopMnt_Horizontal"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A1"
+			(uuid "17c9f971-d2e5-47c9-b81c-81bf86418532")
+		)
+		(pin "A12"
+			(uuid "d1773f85-4dba-4cc2-895f-12427a155597")
+		)
+		(pin "A4"
+			(uuid "6fc7c6b4-c222-4971-b86d-82c7fbb9c18a")
+		)
+		(pin "A5"
+			(uuid "d4da1b11-dbf9-4198-9e6a-1c9d57bfdd42")
+		)
+		(pin "A6"
+			(uuid "76434ed0-463c-49d2-a90c-09fb093979c4")
+		)
+		(pin "A7"
+			(uuid "8c67e646-db57-4e96-955c-bc32430911da")
+		)
+		(pin "A9"
+			(uuid "3879bd51-2353-4879-8bdc-9e4789158180")
+		)
+		(pin "B1"
+			(uuid "17619eea-ebe2-42c2-8c47-d6d409fb2bdb")
+		)
+		(pin "B12"
+			(uuid "edecb1ca-a1e0-4b6d-91dd-f9549be8eaf4")
+		)
+		(pin "B4"
+			(uuid "b12cbe6d-2efb-44f4-a39b-f9123379d9ca")
+		)
+		(pin "B5"
+			(uuid "544f943b-47e4-4b45-b7ce-e30eb296e6c2")
+		)
+		(pin "B9"
+			(uuid "a3a3f83e-9e2a-4984-9c5c-12c4ff0ab893")
+		)
+		(pin "S1"
+			(uuid "722bd0b5-09e0-47dc-a766-eeb6caa19e9a")
+		)
+		(instances
+			(project "WebRadio-ESP32-VS1053"
+				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C")
 		(at 224.79 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9449,7 +10250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 224.79 45.72 0)
 			(effects
 				(font
@@ -9465,7 +10266,7 @@
 			(uuid "b4c71bfe-ec8a-4b71-bff3-e72b563d30db")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C8")
 					(unit 1)
@@ -9474,7 +10275,140 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:GNDD")
+		(at 109.22 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd2a831-9a4f-4437-96c6-fc97410775e1")
+		(property "Reference" "#PWR021"
+			(at 109.22 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae7161ae-01b6-4783-86e1-fcec1b1007ef")
+		)
+		(instances
+			(project "WebRadio-ESP32-VS1053"
+				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:+5V")
+		(at 104.14 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e044ea2-b839-44cc-81cb-c76ec6871531")
+		(property "Reference" "#PWR01"
+			(at 107.95 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 100.33 124.4599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc21ab3-1a2e-4db7-9bee-a2f3855de5c9")
+		)
+		(instances
+			(project "WebRadio-ESP32-VS1053"
+				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:C")
 		(at 160.02 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9518,7 +10452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 160.02 67.31 0)
 			(effects
 				(font
@@ -9534,7 +10468,7 @@
 			(uuid "1e633be3-5ad7-4f41-9296-3ea0c6a83924")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C23")
 					(unit 1)
@@ -9543,7 +10477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "psch:TFT2.2_SPI_4P_SD")
+		(lib_id "Library:TFT2.2_SPI_4P_SD")
 		(at 52.07 59.69 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9568,7 +10502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "psch:TFT2.2_SPI_5P_SD"
+		(property "Footprint" "psch:TFT2.2_SPI_4P_SD"
 			(at 52.07 34.29 0)
 			(effects
 				(font
@@ -9635,7 +10569,7 @@
 			(uuid "22d1c944-b300-4824-91ef-3d9fa167eade")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "DS2")
 					(unit 1)
@@ -9644,7 +10578,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 224.79 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9688,7 +10622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 224.79 35.56 0)
 			(effects
 				(font
@@ -9704,7 +10638,7 @@
 			(uuid "cc402946-9b7e-4db3-a937-735bcb37419a")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R12")
 					(unit 1)
@@ -9713,7 +10647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 245.11 115.57 0)
 		(mirror y)
 		(unit 1)
@@ -9758,7 +10692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 245.11 115.57 0)
 			(effects
 				(font
@@ -9774,7 +10708,7 @@
 			(uuid "ae9db667-cb45-487c-b23e-ed18b748b187")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R18")
 					(unit 1)
@@ -9783,7 +10717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 170.18 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9841,7 +10775,7 @@
 			(uuid "a830594a-fb07-4f8b-a846-2417f0a2f4c7")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR031")
 					(unit 1)
@@ -9850,7 +10784,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Push")
 		(at 147.32 176.53 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9893,7 +10827,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 147.32 176.53 0)
 			(effects
 				(font
@@ -9909,7 +10843,7 @@
 			(uuid "2d74c81b-6a16-4ac0-8bd8-38ce62ab8984")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "SW2")
 					(unit 1)
@@ -9918,7 +10852,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 44.45 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9975,7 +10909,7 @@
 			(uuid "14da8150-534f-45ba-bbbe-a8ef00d1dc42")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR04")
 					(unit 1)
@@ -9984,7 +10918,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 45.72 179.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10028,7 +10962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 45.72 179.07 0)
 			(effects
 				(font
@@ -10044,7 +10978,7 @@
 			(uuid "777ec278-f66f-4103-b35b-838f20f6afe1")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R2")
 					(unit 1)
@@ -10053,7 +10987,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 158.75 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10110,7 +11044,7 @@
 			(uuid "f2167c31-6a5f-4f2b-8ca3-a1aa53c3b5a5")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR014")
 					(unit 1)
@@ -10119,7 +11053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 119.38 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10163,7 +11097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 119.38 130.81 0)
 			(effects
 				(font
@@ -10179,7 +11113,7 @@
 			(uuid "c4bd1257-03f5-4806-a53a-20b588162e23")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C7")
 					(unit 1)
@@ -10188,7 +11122,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 186.69 35.56 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10232,7 +11166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 186.69 35.56 0)
 			(effects
 				(font
@@ -10248,7 +11182,7 @@
 			(uuid "9fc7bc15-23fd-4a94-b62b-39529ed041d3")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C14")
 					(unit 1)
@@ -10257,7 +11191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "psch:VS1053b")
+		(lib_id "Library:VS1053b")
 		(at 218.44 129.54 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10453,7 +11387,7 @@
 			(uuid "b091d32d-fed6-454b-809c-ef165e860d41")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "U4")
 					(unit 1)
@@ -10462,7 +11396,73 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:GNDD")
+		(at 101.6 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32ace773-34a6-48eb-8bbb-7529aec22e6b")
+		(property "Reference" "#PWR07"
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "396c5224-be1d-4b47-b5c5-3af7a0c15734")
+		)
+		(instances
+			(project "WebRadio-ESP32-VS1053"
+				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:SW_Push")
 		(at 147.32 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10505,7 +11505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 147.32 171.45 0)
 			(effects
 				(font
@@ -10521,7 +11521,7 @@
 			(uuid "2d74c81b-6a16-4ac0-8bd8-38ce62ab8985")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "SW1")
 					(unit 1)
@@ -10530,7 +11530,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 85.09 58.42 0)
 		(mirror y)
 		(unit 1)
@@ -10575,7 +11575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 85.09 58.42 0)
 			(effects
 				(font
@@ -10591,7 +11591,7 @@
 			(uuid "e90e0503-25c9-4807-8fa0-b7124bd24a47")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R23")
 					(unit 1)
@@ -10600,7 +11600,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 194.31 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10644,7 +11644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 194.31 88.9 0)
 			(effects
 				(font
@@ -10660,7 +11660,7 @@
 			(uuid "4637bf9d-2d07-4314-8b0f-a7b47658fa2e")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C16")
 					(unit 1)
@@ -10669,7 +11669,76 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "Library:CP_SMD_D5.0mm_H5.7mm")
+		(at 109.22 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39eea85d-873b-4c39-87e0-792042fa29c7")
+		(property "Reference" "C27"
+			(at 102.87 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF"
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD_AKL:CP_Elec_5x5.7"
+			(at 109.22 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMD Electrolytic Capacitor, 5mm Diameter, 5.7mm Height, European Symbol, Alternate KiCad Library"
+			(at 109.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "481f95aa-8898-42c3-a14e-0b1dc40c9735")
+		)
+		(pin "2"
+			(uuid "b90f2491-fbe0-41a6-9d4e-095e9ed36546")
+		)
+		(instances
+			(project "WebRadio-ESP32-VS1053"
+				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
+					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:+3.3V")
 		(at 198.12 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10725,7 +11794,7 @@
 			(uuid "e057a7db-c654-46f3-ba80-db2075c99ada")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR019")
 					(unit 1)
@@ -10734,7 +11803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 194.31 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10778,7 +11847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 194.31 83.82 0)
 			(effects
 				(font
@@ -10794,7 +11863,7 @@
 			(uuid "e78fd48b-39e4-4175-9e26-0b95a4e28c11")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C6")
 					(unit 1)
@@ -10803,7 +11872,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Library:MountingHole")
 		(at 275.59 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10831,7 +11900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
 			(at 275.59 153.67 0)
 			(effects
 				(font
@@ -10859,7 +11928,7 @@
 			)
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "H3")
 					(unit 1)
@@ -10868,7 +11937,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Audio:AudioJack3")
+		(lib_id "Library:AudioJack3")
 		(at 264.16 27.94 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10894,7 +11963,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "psch:Jack_3.5mm_SMT_Horizontal"
+		(property "Footprint" "lib_psch:Jack_3.5mm_SMT_Horizontal"
 			(at 264.16 27.94 0)
 			(effects
 				(font
@@ -10912,7 +11981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
 			(at 264.16 27.94 0)
 			(effects
 				(font
@@ -10931,7 +12000,7 @@
 			(uuid "d233c45e-e7c4-4b62-863e-238528984506")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "J4")
 					(unit 1)
@@ -10940,7 +12009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 254 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10984,7 +12053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 254 133.35 0)
 			(effects
 				(font
@@ -11000,7 +12069,7 @@
 			(uuid "2785bdac-2fa5-43d9-8adf-e97a81737457")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C13")
 					(unit 1)
@@ -11009,7 +12078,7 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_Capacitor_AKL:CP_SMD_D5.0mm_H5.7mm")
+		(lib_id "Library:CP_SMD_D5.0mm_H5.7mm")
 		(at 153.67 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11026,7 +12095,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µF"
+		(property "Value" "47µF"
 			(at 154.94 133.35 0)
 			(effects
 				(font
@@ -11035,7 +12104,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.4"
+		(property "Footprint" "Capacitor_SMD_AKL:CP_Elec_5x5.7"
 			(at 153.67 140.97 0)
 			(effects
 				(font
@@ -11053,7 +12122,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SMD Electrolytic Capacitor, 5mm Diameter, 5.7mm Height, European Symbol, Alternate KiCad Library"
 			(at 153.67 130.81 0)
 			(effects
 				(font
@@ -11069,7 +12138,7 @@
 			(uuid "231e2c2a-6146-41b7-8fe7-a03e55ca470b")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C3")
 					(unit 1)
@@ -11078,7 +12147,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 240.03 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11135,7 +12204,7 @@
 			(uuid "efbd0d1e-3cd3-4cdc-8ff2-697807d31d46")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR025")
 					(unit 1)
@@ -11144,7 +12213,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 139.7 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11201,7 +12270,7 @@
 			(uuid "d06febc6-511b-447e-8eef-52de0a0c2a93")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR017")
 					(unit 1)
@@ -11210,7 +12279,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 218.44 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11254,7 +12323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 218.44 27.94 0)
 			(effects
 				(font
@@ -11270,7 +12339,7 @@
 			(uuid "5a9bdcce-8078-402e-8f1a-21c9693f4d0d")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R11")
 					(unit 1)
@@ -11279,7 +12348,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 259.08 110.49 270)
 		(mirror x)
 		(unit 1)
@@ -11322,7 +12391,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 259.08 110.49 0)
 			(effects
 				(font
@@ -11338,7 +12407,7 @@
 			(uuid "f5a66914-7a7f-435b-9b47-f4abd4233869")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C11")
 					(unit 1)
@@ -11347,7 +12416,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Library:LED")
 		(at 54.61 179.07 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11392,7 +12461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 54.61 179.07 0)
 			(effects
 				(font
@@ -11408,7 +12477,7 @@
 			(uuid "8b0c1834-1a95-47af-9522-aa96550fb53e")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "D2")
 					(unit 1)
@@ -11417,7 +12486,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 193.04 149.86 0)
 		(mirror y)
 		(unit 1)
@@ -11475,7 +12544,7 @@
 			(uuid "f5f8a749-b4bd-4a25-ae59-7726093ba7fe")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR015")
 					(unit 1)
@@ -11484,7 +12553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "Library:+3.3V")
 		(at 265.43 127 270)
 		(mirror x)
 		(unit 1)
@@ -11543,7 +12612,7 @@
 			(uuid "a5ca424e-0c51-47ee-9bed-4335d2ec01c9")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR028")
 					(unit 1)
@@ -11552,7 +12621,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Library:+5V")
 		(at 158.75 30.48 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11609,7 +12678,7 @@
 			(uuid "6b1c0315-ff17-4075-b290-8eb12e6b0293")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR029")
 					(unit 1)
@@ -11618,7 +12687,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 273.05 116.84 0)
 		(mirror y)
 		(unit 1)
@@ -11676,7 +12745,7 @@
 			(uuid "9003bef1-057e-49ee-b1d4-2e7d3594ac8d")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR030")
 					(unit 1)
@@ -11685,7 +12754,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 232.41 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11729,7 +12798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 232.41 35.56 0)
 			(effects
 				(font
@@ -11745,7 +12814,7 @@
 			(uuid "8670161b-92a4-4730-a20c-dfa1fe365dca")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R13")
 					(unit 1)
@@ -11754,7 +12823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 242.57 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11798,7 +12867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 242.57 124.46 0)
 			(effects
 				(font
@@ -11814,7 +12883,7 @@
 			(uuid "fe97b0b9-f01a-4620-bb83-cadb58f14afe")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R14")
 					(unit 1)
@@ -11823,7 +12892,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 153.67 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11880,7 +12949,7 @@
 			(uuid "0117e44d-2f10-4f9e-8130-5ae992a4a635")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR06")
 					(unit 1)
@@ -11889,7 +12958,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 85.09 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11933,7 +13002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 85.09 173.99 0)
 			(effects
 				(font
@@ -11949,7 +13018,7 @@
 			(uuid "6c65d79f-d194-46c8-bb12-30d3fa981a04")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R5")
 					(unit 1)
@@ -11958,7 +13027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 118.11 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12002,7 +13071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 118.11 25.4 0)
 			(effects
 				(font
@@ -12018,7 +13087,7 @@
 			(uuid "56bb63e2-bb5b-45e8-8690-16eede656363")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R21")
 					(unit 1)
@@ -12027,7 +13096,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Library:LED")
 		(at 85.09 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12071,7 +13140,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 85.09 182.88 0)
 			(effects
 				(font
@@ -12087,7 +13156,7 @@
 			(uuid "47aa15c0-42c4-482e-93ed-468863e56441")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "D4")
 					(unit 1)
@@ -12096,7 +13165,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 33.02 59.69 0)
 		(mirror y)
 		(unit 1)
@@ -12141,7 +13210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 33.02 59.69 0)
 			(effects
 				(font
@@ -12157,7 +13226,7 @@
 			(uuid "e7c2810b-4aba-4cd5-a972-9346f642bc26")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C1")
 					(unit 1)
@@ -12166,7 +13235,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "Library:+3.3V")
 		(at 144.78 157.48 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12222,7 +13291,7 @@
 			(uuid "1670bae8-ca38-462f-97d8-eb11f95c9e7c")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR013")
 					(unit 1)
@@ -12231,7 +13300,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 45.72 172.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12275,7 +13344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 45.72 172.72 0)
 			(effects
 				(font
@@ -12291,7 +13360,7 @@
 			(uuid "e6a43116-2771-4e74-9542-220e9259d618")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R1")
 					(unit 1)
@@ -12300,7 +13369,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 111.76 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12344,7 +13413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 111.76 29.21 0)
 			(effects
 				(font
@@ -12360,7 +13429,7 @@
 			(uuid "649be5b4-c05d-47ba-bdc3-a179fe55e63d")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C26")
 					(unit 1)
@@ -12369,72 +13438,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 113.03 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "72e56c01-5efd-426e-8bca-57b5e9a97aa4")
-		(property "Reference" "#PWR01"
-			(at 116.84 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 106.68 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 113.03 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b4eb771-088c-48d7-886c-349eb8927864")
-		)
-		(instances
-			(project "MIDI_Expander"
-				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 148.59 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12478,7 +13482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 148.59 67.31 0)
 			(effects
 				(font
@@ -12494,7 +13498,7 @@
 			(uuid "34124d27-7de2-4f92-b4a1-30417d6bbbf9")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C21")
 					(unit 1)
@@ -12503,7 +13507,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 193.04 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12547,7 +13551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 193.04 142.24 0)
 			(effects
 				(font
@@ -12563,7 +13567,7 @@
 			(uuid "31efe8ec-38e9-43e0-9f5c-3c8c3475b3eb")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C5")
 					(unit 1)
@@ -12572,7 +13576,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 177.8 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12616,7 +13620,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 177.8 130.81 0)
 			(effects
 				(font
@@ -12632,7 +13636,7 @@
 			(uuid "9f205c74-1cff-4467-8c52-76bac8629d0a")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C18")
 					(unit 1)
@@ -12641,7 +13645,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Crystal_Small")
+		(lib_id "Library:Crystal_Small")
 		(at 251.46 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12685,7 +13689,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Two pin crystal, small symbol"
 			(at 251.46 115.57 0)
 			(effects
 				(font
@@ -12701,7 +13705,7 @@
 			(uuid "7d5e73d7-b93d-4159-abe9-46f6177df1f3")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "Y1")
 					(unit 1)
@@ -12710,7 +13714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 254 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12767,7 +13771,7 @@
 			(uuid "b4743f01-7e47-40fa-bb3a-b87f222f3fa9")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR032")
 					(unit 1)
@@ -12776,7 +13780,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 255.27 88.9 0)
 		(mirror y)
 		(unit 1)
@@ -12834,7 +13838,7 @@
 			(uuid "0375df3a-63b5-42d2-8986-62191769882c")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR027")
 					(unit 1)
@@ -12843,7 +13847,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 161.29 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12887,7 +13891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 161.29 40.64 0)
 			(effects
 				(font
@@ -12903,7 +13907,7 @@
 			(uuid "0bc58cb7-f4ba-44d2-b71c-b97e91c87e4a")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C22")
 					(unit 1)
@@ -12912,7 +13916,7 @@
 		)
 	)
 	(symbol
-		(lib_id "psch:JLCPCB")
+		(lib_id "Library:JLCPCB")
 		(at 275.59 166.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12939,7 +13943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "psch:JLCPCB-Marker"
+		(property "Footprint" "lib_psch:JLCPCB-Marker"
 			(at 275.59 166.37 0)
 			(effects
 				(font
@@ -12967,7 +13971,7 @@
 			)
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "U5")
 					(unit 1)
@@ -12976,7 +13980,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "Library:+3.3V")
 		(at 29.21 63.5 90)
 		(mirror x)
 		(unit 1)
@@ -13033,7 +14037,7 @@
 			(uuid "3943a7cf-61e3-4c0d-a1fa-0bf50eaf3cc9")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR024")
 					(unit 1)
@@ -13042,7 +14046,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 168.91 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13086,7 +14090,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 168.91 67.31 0)
 			(effects
 				(font
@@ -13102,7 +14106,7 @@
 			(uuid "93f20064-3a84-49fc-9b5b-556a5485dc97")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C24")
 					(unit 1)
@@ -13111,7 +14115,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AMS1117-1.8")
+		(lib_id "Library:AMS1117-1.8")
 		(at 130.81 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13173,7 +14177,7 @@
 			(uuid "3727c0f6-7b28-4bb3-abde-a99e7b8b0986")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "U1")
 					(unit 1)
@@ -13182,7 +14186,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Audio:PAM8403D")
+		(lib_id "Library:PAM8403D")
 		(at 139.7 35.56 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13224,7 +14228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "3W Filterless Class-D Stereo Audio Amplifier, SOP-16"
 			(at 139.7 35.56 0)
 			(effects
 				(font
@@ -13282,7 +14286,7 @@
 			(uuid "bdb01087-c987-4a08-8a47-998c5449ce2d")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "U6")
 					(unit 1)
@@ -13291,7 +14295,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 160.02 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13348,7 +14352,7 @@
 			(uuid "5fa465e3-cfc9-48fb-8d8f-6970e0c6be10")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR033")
 					(unit 1)
@@ -13357,7 +14361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "Library:+3.3V")
 		(at 190.5 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13413,7 +14417,7 @@
 			(uuid "61663796-0b9b-4804-b46c-91b9dd635bc9")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR018")
 					(unit 1)
@@ -13422,7 +14426,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "Library:+3.3V")
 		(at 78.74 143.51 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13478,7 +14482,7 @@
 			(uuid "f1d173bc-3927-4266-960b-3e77e9b5ade2")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR08")
 					(unit 1)
@@ -13487,7 +14491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 240.03 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13531,7 +14535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 240.03 35.56 0)
 			(effects
 				(font
@@ -13547,7 +14551,7 @@
 			(uuid "58389fd4-5d3d-4764-9bca-40bf670e9ab3")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R15")
 					(unit 1)
@@ -13556,7 +14560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
+		(lib_id "Library:Conn_01x02_Pin")
 		(at 85.09 153.67 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13601,7 +14605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 85.09 153.67 0)
 			(effects
 				(font
@@ -13617,7 +14621,7 @@
 			(uuid "ce99d004-fed7-4586-9144-ef2d643db99e")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "J5")
 					(unit 1)
@@ -13626,7 +14630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 259.08 127 270)
 		(mirror x)
 		(unit 1)
@@ -13671,7 +14675,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 259.08 127 0)
 			(effects
 				(font
@@ -13687,7 +14691,7 @@
 			(uuid "641e29f4-8c49-4485-b061-965f69c2c722")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R17")
 					(unit 1)
@@ -13696,7 +14700,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 147.32 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -13753,7 +14757,7 @@
 			(uuid "7a9fd756-44e0-4f66-9af9-d1da341d2599")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR020")
 					(unit 1)
@@ -13762,7 +14766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "esp32-mini:mini_esp32")
+		(lib_id "Library:mini_esp32")
 		(at 59.69 148.59 0)
 		(mirror x)
 		(unit 1)
@@ -13788,7 +14792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "esp32-mini:ESP32_mini"
+		(property "Footprint" "ESP32_mini:ESP32_mini"
 			(at 63.5 151.13 0)
 			(effects
 				(font
@@ -13936,7 +14940,7 @@
 			(uuid "9a719ac9-822b-48e6-a5a8-b2906ebf97cb")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "U2")
 					(unit 1)
@@ -13945,7 +14949,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 60.96 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14002,7 +15006,7 @@
 			(uuid "3712eb11-83ce-4f5c-aaa5-53b4871b5768")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR05")
 					(unit 1)
@@ -14011,7 +15015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 186.69 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14055,7 +15059,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 186.69 45.72 0)
 			(effects
 				(font
@@ -14071,7 +15075,7 @@
 			(uuid "7f38923f-9a75-421d-8a7b-788141e51d62")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C15")
 					(unit 1)
@@ -14080,7 +15084,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Library:+5V")
 		(at 85.09 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14137,7 +15141,7 @@
 			(uuid "9e09cbb6-6721-4aa8-8cd1-067474072687")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR011")
 					(unit 1)
@@ -14146,7 +15150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 111.76 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14190,7 +15194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 111.76 41.91 0)
 			(effects
 				(font
@@ -14206,7 +15210,7 @@
 			(uuid "03f0cf03-bba0-4d02-b810-400c76522a84")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C25")
 					(unit 1)
@@ -14215,7 +15219,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 232.41 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14259,7 +15263,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 232.41 45.72 0)
 			(effects
 				(font
@@ -14275,7 +15279,7 @@
 			(uuid "54fd4c97-fab6-486e-bf46-953b5e24d7a2")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C9")
 					(unit 1)
@@ -14284,7 +15288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 186.69 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14341,7 +15345,7 @@
 			(uuid "0c78b227-e4d8-4e7c-953e-22ef0d305ed6")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR016")
 					(unit 1)
@@ -14350,7 +15354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 170.18 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14394,7 +15398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 170.18 130.81 0)
 			(effects
 				(font
@@ -14410,7 +15414,7 @@
 			(uuid "9635f497-9c51-4e2e-9663-4e9713705e9e")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C4")
 					(unit 1)
@@ -14419,7 +15423,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 259.08 120.65 270)
 		(mirror x)
 		(unit 1)
@@ -14462,7 +15466,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 259.08 120.65 0)
 			(effects
 				(font
@@ -14478,7 +15482,7 @@
 			(uuid "d21ce27c-d5bd-49e7-a954-fe34a12b9e53")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C12")
 					(unit 1)
@@ -14487,7 +15491,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 161.29 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14531,7 +15535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 161.29 20.32 0)
 			(effects
 				(font
@@ -14547,7 +15551,7 @@
 			(uuid "683ef297-7b50-4e29-861e-3e5e2bd1dcd2")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R19")
 					(unit 1)
@@ -14556,7 +15560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Library:MountingHole")
 		(at 275.59 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14584,7 +15588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
 			(at 275.59 158.75 0)
 			(effects
 				(font
@@ -14612,7 +15616,7 @@
 			)
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "H4")
 					(unit 1)
@@ -14621,7 +15625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 29.21 55.88 270)
 		(mirror x)
 		(unit 1)
@@ -14680,7 +15684,7 @@
 			(uuid "67a435dd-44ca-4af9-a9af-30f2cf563b48")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR034")
 					(unit 1)
@@ -14689,7 +15693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Library:MountingHole")
 		(at 275.59 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14717,7 +15721,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
 			(at 275.59 148.59 0)
 			(effects
 				(font
@@ -14745,7 +15749,7 @@
 			)
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "H2")
 					(unit 1)
@@ -14754,7 +15758,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 85.09 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14811,7 +15815,7 @@
 			(uuid "bcc5a115-4649-4a55-9656-853ec9a854c5")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR012")
 					(unit 1)
@@ -14820,7 +15824,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 85.09 76.2 0)
 		(mirror y)
 		(unit 1)
@@ -14878,7 +15882,7 @@
 			(uuid "3e452157-6085-4c86-abb3-9e286f7bfac5")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR02")
 					(unit 1)
@@ -14887,7 +15891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 118.11 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14931,7 +15935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 118.11 45.72 0)
 			(effects
 				(font
@@ -14947,7 +15951,7 @@
 			(uuid "5a19b9b4-ba76-4a08-bd41-2d20c72a6a8a")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R20")
 					(unit 1)
@@ -14956,7 +15960,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 118.11 165.1 0)
 		(mirror y)
 		(unit 1)
@@ -15001,7 +16005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 118.11 165.1 0)
 			(effects
 				(font
@@ -15017,7 +16021,7 @@
 			(uuid "57936221-0217-4e1d-8b36-b21d29d2318b")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R4")
 					(unit 1)
@@ -15026,7 +16030,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
+		(lib_id "Library:LED")
 		(at 54.61 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15071,7 +16075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 54.61 172.72 0)
 			(effects
 				(font
@@ -15087,7 +16091,7 @@
 			(uuid "9a1bc4e1-6b00-4d46-b114-b1a0fa9a59f0")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "D1")
 					(unit 1)
@@ -15096,7 +16100,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 248.92 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15140,7 +16144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 248.92 86.36 0)
 			(effects
 				(font
@@ -15156,7 +16160,7 @@
 			(uuid "6b02401f-7df6-46bb-9610-995a0a7b1ec7")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R16")
 					(unit 1)
@@ -15165,7 +16169,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 170.18 20.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15223,7 +16227,7 @@
 			(uuid "4f58044b-806e-42f8-9a5e-d35c8214eb7c")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR035")
 					(unit 1)
@@ -15232,7 +16236,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 85.09 69.85 0)
 		(mirror y)
 		(unit 1)
@@ -15277,7 +16281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 85.09 69.85 0)
 			(effects
 				(font
@@ -15293,7 +16297,7 @@
 			(uuid "9ce3072d-0948-4e93-8e4d-e04e9ee4ead7")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C17")
 					(unit 1)
@@ -15302,7 +16306,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 78.74 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15360,7 +16364,7 @@
 			(uuid "d6659d84-d50d-4fb1-9c20-0cb38d221b9e")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR010")
 					(unit 1)
@@ -15369,7 +16373,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
+		(lib_id "Library:Conn_01x02_Pin")
 		(at 99.06 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15413,7 +16417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 99.06 27.94 0)
 			(effects
 				(font
@@ -15429,7 +16433,7 @@
 			(uuid "7bbe2e65-89c9-4bc4-a5de-42e73ebcb163")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "J3")
 					(unit 1)
@@ -15438,7 +16442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 143.51 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15482,7 +16486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 143.51 130.81 0)
 			(effects
 				(font
@@ -15498,7 +16502,7 @@
 			(uuid "27b14082-28aa-470a-999e-52c3a938cc97")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C2")
 					(unit 1)
@@ -15507,7 +16511,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Library:GNDD")
 		(at 76.2 157.48 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15564,7 +16568,7 @@
 			(uuid "62b8c112-13b8-4631-9ee8-65267783243c")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR026")
 					(unit 1)
@@ -15573,7 +16577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 240.03 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15617,7 +16621,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 240.03 45.72 0)
 			(effects
 				(font
@@ -15633,7 +16637,7 @@
 			(uuid "bfa88d6f-bb40-4f66-9d23-f1ff64001a7c")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C10")
 					(unit 1)
@@ -15642,7 +16646,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 130.81 165.1 0)
 		(mirror y)
 		(unit 1)
@@ -15687,7 +16691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 130.81 165.1 0)
 			(effects
 				(font
@@ -15703,7 +16707,7 @@
 			(uuid "75565b22-5a1c-4100-9fd9-4d03a30a4fc0")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R7")
 					(unit 1)
@@ -15712,7 +16716,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole")
+		(lib_id "Library:MountingHole")
 		(at 275.59 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15740,7 +16744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO14580"
 			(at 275.59 143.51 0)
 			(effects
 				(font
@@ -15768,7 +16772,7 @@
 			)
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "H1")
 					(unit 1)
@@ -15777,7 +16781,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 185.42 142.24 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15821,7 +16825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 185.42 142.24 0)
 			(effects
 				(font
@@ -15837,7 +16841,7 @@
 			(uuid "dbe2c62e-aedd-40a8-81e4-9d67aecd9410")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C19")
 					(unit 1)
@@ -15846,7 +16850,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 218.44 25.4 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15890,7 +16894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 218.44 25.4 0)
 			(effects
 				(font
@@ -15906,7 +16910,7 @@
 			(uuid "27993a8f-86f4-4fb4-b2c2-97750ca454f4")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R10")
 					(unit 1)
@@ -15915,7 +16919,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
+		(lib_id "Library:Conn_01x02_Pin")
 		(at 99.06 43.18 0)
 		(mirror x)
 		(unit 1)
@@ -15959,7 +16963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 99.06 43.18 0)
 			(effects
 				(font
@@ -15975,7 +16979,7 @@
 			(uuid "7bbe2e65-89c9-4bc4-a5de-42e73ebcb164")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "J2")
 					(unit 1)
@@ -15984,7 +16988,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "Library:+3.3V")
 		(at 203.2 147.32 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16040,7 +17044,7 @@
 			(uuid "31ab0548-473b-4e2d-9701-f233ce756175")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR022")
 					(unit 1)
@@ -16049,7 +17053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 137.16 165.1 0)
 		(mirror y)
 		(unit 1)
@@ -16094,7 +17098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 137.16 165.1 0)
 			(effects
 				(font
@@ -16110,7 +17114,7 @@
 			(uuid "94b0b7d0-fe38-4f08-be62-510484399dc9")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R8")
 					(unit 1)
@@ -16119,7 +17123,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Library:+5V")
 		(at 78.74 146.05 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16177,7 +17181,7 @@
 			(uuid "d1d0ef50-e1fd-4265-9857-3992c0e8c531")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR09")
 					(unit 1)
@@ -16186,7 +17190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
+		(lib_id "Library:+3.3V")
 		(at 85.09 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16242,7 +17246,7 @@
 			(uuid "6e1a3b18-1069-4e2e-8a36-010ef0a254e5")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "#PWR03")
 					(unit 1)
@@ -16251,7 +17255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Push")
 		(at 147.32 186.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16294,7 +17298,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 147.32 186.69 0)
 			(effects
 				(font
@@ -16310,7 +17314,7 @@
 			(uuid "2d74c81b-6a16-4ac0-8bd8-38ce62ab8986")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "SW4")
 					(unit 1)
@@ -16319,7 +17323,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
+		(lib_id "Library:SW_Push")
 		(at 147.32 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16362,7 +17366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 147.32 181.61 0)
 			(effects
 				(font
@@ -16378,7 +17382,7 @@
 			(uuid "2d74c81b-6a16-4ac0-8bd8-38ce62ab8987")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "SW3")
 					(unit 1)
@@ -16387,7 +17391,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Library:R")
 		(at 45.72 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16431,7 +17435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 45.72 185.42 0)
 			(effects
 				(font
@@ -16447,7 +17451,7 @@
 			(uuid "b34abbe6-db72-42c3-82d6-b99c94bf2478")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "R3")
 					(unit 1)
@@ -16456,7 +17460,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
+		(lib_id "Library:C")
 		(at 139.7 67.31 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16500,7 +17504,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 139.7 67.31 0)
 			(effects
 				(font
@@ -16516,7 +17520,7 @@
 			(uuid "f9c01cb9-43cc-4e60-94f6-2f061b6ee15a")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "C20")
 					(unit 1)
@@ -16525,7 +17529,74 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
+		(lib_id "Library:+5V")
+		(at 128.27 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee9d60f-f733-4e3c-85ff-00d8a4da2dc3")
+		(property "Reference" "#PWR036"
+			(at 124.46 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 132.08 74.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 128.27 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aaa4a764-a029-4a3b-9c32-c68845cda196")
+		)
+		(instances
+			(project "WebRadio-ESP32-VS1053"
+				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:Conn_01x02")
 		(at 39.37 152.4 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16568,7 +17639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 39.37 152.4 0)
 			(effects
 				(font
@@ -16584,7 +17655,7 @@
 			(uuid "bdf10b9f-eefc-4787-803c-883e3aaa550d")
 		)
 		(instances
-			(project "MIDI_Expander"
+			(project "WebRadio-ESP32-VS1053"
 				(path "/ab339835-62d6-431e-976f-91ac65aa112a"
 					(reference "J1")
 					(unit 1)
