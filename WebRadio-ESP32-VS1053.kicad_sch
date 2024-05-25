@@ -10062,7 +10062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "lib_psch:LED_D3.0mm_SMD"
 			(at 54.61 185.42 0)
 			(effects
 				(font
@@ -10148,7 +10148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB 2.0-only Type-C Plug connector"
 			(at 109.22 90.17 0)
 			(effects
 				(font
@@ -12443,7 +12443,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "lib_psch:LED_D3.0mm_SMD"
 			(at 54.61 179.07 0)
 			(effects
 				(font
@@ -16057,7 +16057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "LED_THT:LED_D3.0mm"
+		(property "Footprint" "lib_psch:LED_D3.0mm_SMD"
 			(at 54.61 172.72 0)
 			(effects
 				(font
