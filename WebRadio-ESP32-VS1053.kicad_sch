@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "WebRadio ESP32")
-		(date "2024-03-17")
+		(date "2024-05-26")
 		(rev "1.2")
 		(company "PSch")
 	)
@@ -5274,12 +5274,6 @@
 		(uuid "02a494ba-3bd1-47d9-900f-1a621c11a4df")
 	)
 	(junction
-		(at 170.18 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0348b536-17db-41bb-89a2-29a1ce9a4088")
-	)
-	(junction
 		(at 232.41 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5789,6 +5783,12 @@
 		(color 0 0 0 0)
 		(uuid "f9f60333-35c0-46d8-bed9-367acc9f8880")
 	)
+	(junction
+		(at 170.18 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fee1dcfd-ba96-41fc-b672-395d1f4403a9")
+	)
 	(no_connect
 		(at 73.66 129.54)
 		(uuid "02d2ff8e-355e-4910-bcd9-bcf8b3e3d1cc")
@@ -5808,6 +5808,10 @@
 	(no_connect
 		(at 233.68 109.22)
 		(uuid "1313a657-7eba-46e2-b74d-80b4546cf08e")
+	)
+	(no_connect
+		(at 124.46 82.55)
+		(uuid "1a2a294d-606b-49b6-8290-0c1f0915aab9")
 	)
 	(no_connect
 		(at 60.96 39.37)
@@ -5840,6 +5844,10 @@
 	(no_connect
 		(at 233.68 76.2)
 		(uuid "6b0c4af4-e021-4530-b391-75fea3cc99d6")
+	)
+	(no_connect
+		(at 46.99 87.63)
+		(uuid "77640682-8939-44b7-89e1-992157c583d2")
 	)
 	(no_connect
 		(at 73.66 105.41)
@@ -5878,12 +5886,24 @@
 		(uuid "c943b698-0178-4a8e-979c-ae8d9276c113")
 	)
 	(no_connect
+		(at 124.46 92.71)
+		(uuid "d45a3659-5583-43ce-957e-ece9bfa69a84")
+	)
+	(no_connect
 		(at 73.66 107.95)
 		(uuid "e04837f7-d589-481c-bbf4-a78f7acb19cc")
 	)
 	(no_connect
+		(at 124.46 87.63)
+		(uuid "e5f5078f-2d0f-4cc4-8b9f-230fd729fd80")
+	)
+	(no_connect
 		(at 73.66 127)
 		(uuid "f3d0a3ec-abe6-404b-a013-a319dab6d349")
+	)
+	(no_connect
+		(at 124.46 80.01)
+		(uuid "f845aa10-2386-495d-8d1d-14b953aa8fe8")
 	)
 	(no_connect
 		(at 60.96 41.91)
@@ -7431,7 +7451,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 124.46) (xy 153.67 124.46)
+			(xy 153.67 124.46) (xy 170.18 124.46)
 		)
 		(stroke
 			(width 0.1524)
@@ -8588,16 +8608,6 @@
 			(type solid)
 		)
 		(uuid "d041b083-c3f8-4c22-9cae-23625d09fab9")
-	)
-	(wire
-		(pts
-			(xy 153.67 124.46) (xy 170.18 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d055395d-715b-4628-a8c1-2565c43cee35")
 	)
 	(wire
 		(pts
